@@ -18,7 +18,7 @@ public class Yum{
         int skittles = input.nextInt(); // tells how many spots the array needs to be filled by user input.
         
         if(skittles == 0){
-        System.out.println("Okay, enjoy your skittle-free life then. ");
+        System.out.println("Okay, enjoy your skittle free life then. ");
         }
 
         String[] skittlesColor = new String[skittles]; // the actual array
@@ -42,15 +42,15 @@ public class Yum{
              
         }//closes for loop
         
-        System.out.print("Are you finished eating? 0 is yes, 1 is no: ");
+        System.out.print("Are you finished eating? '0' is yes, '1' is no: ");
          int response = input.nextInt();
         
         switch(response){
          case 0: 
-             System.out.println("Thank you for playing!");
+             System.out.println("Hope you enjoyed those Skittles!");
              break;
         default:
-            System.out.println("You should really put the Skittles down......... sorry............. anyway..... well this awkward...... bye.......");
+            System.out.println("You should really put the Skittles down......... sorry............. anyway..... well this is awkward...... bye.......");
             break;
         }//closes response
         System.out.print("You ate " +skittles+ " skittle(s).");
@@ -72,3 +72,4 @@ public class Yum{
 *no while loop :(, actually thanks for helping me add one :)
 *last tested: 1/15/19
 */
+//WHY IS THERE SO MUCH CODE?!
