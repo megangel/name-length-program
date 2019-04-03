@@ -9,10 +9,10 @@ import java.util.*;
 public class Yum{
     public static void main(String[]args){
         Scanner input = new Scanner(System.in);
-        int yellowCount = 0; 
-        int purpleCount = 0; 
-        int greenCount = 0; 
-        int pinkCount = 0;
+        int yellowCount = 1; 
+        int purpleCount = 1; 
+        int greenCount = 1; 
+        int pinkCount = 1;
         
         System.out.print("How many Skittles did you eat: ");
         int skittles = input.nextInt(); // tells how many spots the array needs to be filled by user input.
